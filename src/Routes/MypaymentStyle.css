@@ -1,0 +1,64 @@
+.payment{
+    padding: 10rem 3rem;
+
+}
+.container{
+    display: flex;
+}
+.payment-menu h3{
+    color: rgba(237, 75, 17, 0.95);
+}
+.payment-menu{
+    padding: 3rem 0;
+}
+
+.payment-menu li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(223, 236, 232);
+    width: 15rem;
+    height: 3rem;
+    list-style: none;
+    border-radius: 0.2rem;
+   cursor: pointer;
+
+}
+ .payment-links{
+    color: #222;
+    font-size: 1rem;
+    margin-left: 0.4rem;
+    text-decoration: none;
+   
+} 
+
+.payment-recipt{
+    border: 2px solid rgb(18, 16, 16);
+    width: 60%;
+    border-radius: 8px;
+}
+.payment-recipt p{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: #222;
+}
+.payment-recipt span{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.payment-menu li:hover{
+    background: transparent;
+
+}
+@media screen and (max-width:850px){
+
+    .payment{
+        padding: 8rem 6rem;
+    
+    }
+    .payment-menu{
+        display: none;
+    }
+
+}

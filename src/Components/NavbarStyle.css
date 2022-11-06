@@ -1,0 +1,122 @@
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(241, 223, 193);
+    box-shadow: 0 5px 15px rgba(255, 213, 5, 0.991);
+    height: 5rem;
+    width: 100%;
+position: fixed;
+    z-index: 99;
+}
+.navbar .logo1{
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500;
+margin-left: 2rem;
+letter-spacing:0.15rem;
+color: rgb(228, 171, 14);
+font-size: 1.5rem;
+cursor: pointer;
+mix-blend-mode: multiply;
+}
+.navbar .logo1 img{
+width: 3rem;
+margin-right: .8rem;
+    
+}
+.navbar .logo1 span{
+    color: rgb(244, 52, 26);
+}
+ .nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6 , auto);
+    gap: 10px;
+list-style: none;
+align-items: center;
+}
+
+.menu-links{
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    }
+    .menu-links:hover{
+        color: rgb(242, 114, 23);
+        border-bottom: 2px solid rgb(234, 118, 35);
+        transition: all 0.2s ease-in-out;
+    }
+.logo2{ 
+    width: 3rem;
+    height: 3rem;
+    margin-right: 6rem;
+    background-color:#222;
+    border-radius: 50%;
+letter-spacing: 0.5rem;
+cursor: pointer;
+}
+
+.logo2 h1{
+margin-top: 0.5rem;
+   margin-left: 0.7rem;
+    font-size: 1rem;
+    color: #fff;
+}
+ .logo2 span{
+    font-size: 1.5rem;
+ }
+ .menu-icons{
+  margin-right: 3rem;
+}
+.menu-icons{
+    display: none;
+    
+}
+
+ @media screen and (max-width:850px){
+    .navbar{
+z-index: 99;
+    }
+    .nav-menu{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        background-color: rgb(241, 223, 193);
+      width: 100%;
+      height: auto;
+      position: absolute;
+     right: -100%;
+      opacity: 0;
+      top: 4.5rem;
+      align-items: center;
+      padding: 90px 0 30px 0;
+      transition: 0.3s ease-in-out;
+ 
+    }
+    .nav-menu.active{
+        right: 0;
+        opacity: 1;
+        transition: 0.2s ease-in-out;
+    }
+    .menu-links{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        transition: none;
+        
+      } 
+    .logo2{
+        display: none;
+    }
+
+
+    .menu-icons{
+        display: block;
+        cursor: pointer;
+    }
+    }

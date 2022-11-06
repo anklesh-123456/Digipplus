@@ -1,0 +1,47 @@
+.home-page{
+    padding: 7rem 6rem;
+   
+}
+.home-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.heading {
+    justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
+}
+.work{
+    padding: 1rem 8rem;
+}
+.work h2{
+    font-size: 1.2rem;
+    color: rgb(240, 108, 8);
+    padding: 1rem 0;
+}
+.work h4{
+   width: 10rem;
+   height: 1.8rem;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 5px 18px yellow;
+}
+textarea{
+    padding: 0.5rem 0  0  0;
+    border: none;
+    box-shadow: 0 5px 18px yellow;
+}
+
+@media screen and (max-width:850px){
+    .home-page{
+        padding: 1rem 2rem;
+    
+    }
+    .work{
+        padding: 1rem 2rem;
+    }
+}

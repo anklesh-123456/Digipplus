@@ -1,0 +1,46 @@
+.job-header{
+    padding: 6rem 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.head{
+    width: 20%;
+    height: 100vh;
+}
+
+.main{
+    padding: 3rem 3rem;
+    width: 80%;
+    height: 100vh;
+    justify-content: center;
+}
+.main .text{
+    width: 28rem;
+    height: 15rem;
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px yellow;
+    
+}
+.text h1{
+  
+    font-size: 1.8rem;
+}
+
+.text p{
+    margin-top: 1.5rem;
+    color: #222;
+}
+@media screen and (max-width:850px){
+
+    .job-header{
+        padding: 6rem 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head{
+    display: none;
+    }
+}

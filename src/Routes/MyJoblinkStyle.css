@@ -1,0 +1,29 @@
+
+.jobs h3{
+    padding:1rem 0;
+    color: rgba(237, 75, 17, 0.95);
+    
+}
+.jobs li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(223, 236, 232);
+    width: 15rem;
+    height: 3rem;
+    list-style: none;
+    border-radius: 0.2rem;
+   cursor: pointer;
+}
+.job-links{
+    color: #222;
+    font-size: 1rem;
+    margin-left: 0.4rem;
+    text-decoration: none;
+}
+.jobs li:hover{
+
+    background: transparent;
+}
+
+
